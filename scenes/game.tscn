@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://1v5kdypxmwvr"]
+
+[ext_resource type="Script" path="res://scripts/run_many_sims.cs" id="1_uvr3n"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="start" type="Button" parent="."]
+offset_left = 379.0
+offset_top = 273.0
+offset_right = 742.0
+offset_bottom = 384.0
+text = "Start"
+script = ExtResource("1_uvr3n")
